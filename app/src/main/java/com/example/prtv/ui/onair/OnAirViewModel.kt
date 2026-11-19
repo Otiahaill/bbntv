@@ -85,7 +85,7 @@ class OnAirViewModel @Inject constructor(
         lineup = cached
         lineupDay = dayOf(ClockSync.nowMs())
         recompute()
-        if (repo.isStale(cached)) refreshQuietly()
+        if (cached != null && repo.isStale(cached)) refreshQuietly()
     }
 
     fun retry() {
