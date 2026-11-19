@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  BRAND CONFIG (2/2): colours. The app uses a dark theme, so keep backgrounds dark and text light.
+  Run `python3 scripts/check_brand.py` to check contrast.
+-->
+<resources>
+    <color name="brand_primary">#5AC8FA</color>
+    <color name="brand_on_primary">#000000</color>
+    <color name="brand_secondary">#007AFF</color>
+    <color name="brand_background">#000000</color>
+    <color name="brand_surface">#1C1C1E</color>
+    <color name="brand_surface_variant">#2C2C2E</color>
+    <color name="brand_on_background">#FFFFFF</color>
+    <color name="brand_on_surface_variant">#EBEBF5</color>
+    <color name="brand_error">#FF453A</color>
+    <!-- Launcher icon / TV banner background -->
+    <color name="ic_launcher_background">#1C1C1E</color>
+</resources>

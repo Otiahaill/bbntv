@@ -1,0 +1,6 @@
+# Copy to local.properties (git-ignored). Android Studio also writes sdk.dir here.
+# Optional: embed a YouTube Data API v3 key in the debug/release build.
+# The key must be RESTRICTED in Google Cloud (Android package + SHA-1, YouTube Data API v3 only).
+# Alternatives: -PyoutubeApiKey=... on the command line, or the YOUTUBE_API_KEY environment variable.
+# Never commit a real key. If you leave this empty, the app asks for a key on first run.
+youtubeApiKey=

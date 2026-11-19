@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+*/build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Secrets / local configuration  (never commit keys)
+local.properties
+gradle.properties.local
+*.keystore
+*.jks
+*.pem
+.env
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Logs / coverage / generated
+*.log
+*.ec
+*.exec
+generated/

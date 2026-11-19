@@ -1,0 +1,11 @@
+name = "bbntv-proxy"          # becomes https://bbntv-proxy.<your-subdomain>.workers.dev
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# The YouTube API key is NOT stored here. Store it as a Cloudflare secret:
+#   npx wrangler secret put YOUTUBE_API_KEY
+[vars]
+# Lock the proxy to your channel(s). Comma-separated. Leave ALL THREE empty only while developing.
+ALLOWED_CHANNEL_IDS = "UCP8PPvgcD1Efbf0j-jCzZXQ"     # e.g. "UCxxxxxxxxxxxxxxxxxxxxxx"
+ALLOWED_HANDLES = "GasperAswenMinistries"         # e.g. "@PowerRangers"  (only needed if brand_channel is a handle)
+ALLOWED_PLAYLIST_IDS = ""    # optional extra playlists (uploads playlists of the channels above are always allowed)

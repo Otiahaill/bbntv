@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  BRAND CONFIG (1/2): text. This is one of the only places you edit for a new project.
+  Everything else (code, layout, legal screens) is shared.
+-->
+<resources>
+    <!-- Name shown under the launcher icon and on the first screen. Must not contain "YouTube" or "YT". -->
+    <string name="app_name">BBN tv</string>
+
+    <!-- The channel to turn into a TV set: an @handle, a channel URL, or a UC... channel ID.
+         Leave empty to let the user type one in on first run. -->
+    <string name="brand_channel" translatable="false">UCP8PPvgcD1Efbf0j-jCzZXQ</string>
+
+    <!-- Optional: a playlist ID or URL. Empty = the channel's uploads. -->
+    <string name="brand_playlist" translatable="false"></string>
+
+    <!-- Base URL of your Cloudflare Worker (see cloudflare/README.md), e.g. https://my-tv.example.workers.dev
+         Empty = call YouTube directly using a key from local.properties (development only). -->
+    <string name="brand_proxy_url" translatable="false"></string>
+
+    <!-- REQUIRED before release: a monitored address, shown in the privacy policy. -->
+    <string name="contact_email" translatable="false">hemprodEnterprises@gmail.com</string>
+</resources>
